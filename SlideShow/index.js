@@ -36,6 +36,10 @@ function next(direction) {
 
 }
 
+setInterval(() => {
+    next("next")
+}, 3000);
+
 
 
 
